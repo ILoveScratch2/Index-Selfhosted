@@ -1,12 +1,13 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "开发",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "Docker Hub",
+        description: "ILoveScratch 的 Docker Hub镜像",
+        url: "https://docker.ilovescratch.dpdns.org",
+        icon: "http://ilovescratch.dpdns.org/docker.jpg",
         color: "#0171CD",
       },
       {
@@ -27,22 +28,16 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "示例分类2",
   },
   {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
     title: "示例分类5",
   },
   {
-    title: "友情链接",
+    title: "其他链接",
     sites: [
       {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
+        title: "ILS Blog",
+        description: "ILoveScratch 的博客",
+        url: "https://blog.ilovescratch.dpdns.org",
+        icon: "https://avatars.githubusercontent.com/u/161606492?v=4",
       },
     ],
   },
@@ -55,28 +50,28 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "ILoveScratch Index",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://blog.ilovescratch.dpdns.org",
   /**
    * 指定中心 LOGO 图片地址
    */
-  LOGO_URL: null,
+  LOGO_URL: "https://avatars.githubusercontent.com/u/161606492?v=4",
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "https://github.com/ILoveScratch2",
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
+  BACKGROUND_IMG_URL: "https://bing-api.ilovescratch.dpdns.org",
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
-  ICP_URL: "https://beian.miit.gov.cn/",
+  ICP: "POWERED BY NETLIFY",
+  ICP_URL: "https://netlify.com/",
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
@@ -91,6 +86,7 @@ const GLOBAL_CONFIG = {
     "最近还好吗？",
     "流星，落花，萤火",
     "马车越空，晃荡越响",
+    "Welcome To my index!",
   ],
   /**
    * Website 分类配置
@@ -104,9 +100,9 @@ const GLOBAL_CONFIG = {
    * 网站 Title Keywords Description 的配置，用于 SEO
    */
   TKD: {
-    title: "My Blog Index",
-    keywords: "Blog, Index, Index Page",
-    description: "This is my personal blog index page.",
+    title: "ILoveScratch Selfhosted Index",
+    keywords: "Blog, Index, Index Page, ilovescratch, ILoveScratch2, Selfhosted, 自部署, 博客",
+    description: "这是ILoveScratch部署的免费公共服务列表!",
   },
 };
 
