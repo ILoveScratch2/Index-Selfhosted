@@ -81,7 +81,7 @@ const GLOBAL_CONFIG = {
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://bing-api.ilovescratch.dpdns.org",
+  BACKGROUND_IMG_URL: "https://bing-api.ilovescratch.dpdns.org?res=1920x1080",
   /**
    * ICP 备案号，留空不显示
    */
