@@ -1,6 +1,30 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
+    title: "全部",
+    sites: [
+      {
+        title: "Docker Hub",
+        description: "ILoveScratch 的 Docker Hub镜像",
+        url: "https://docker.ilovescratch.dpdns.org",
+        icon: "http://ilovescratch.dpdns.org/docker.jpg",
+        color: "#0171CD",
+      },
+      {
+        title: "Bing Wallpaper API",
+        description: "必应壁纸API",
+        url: "http://bingapi.ilovescratch.dpdns.org/",
+        icon: "https://ilovescratch.dpdns.org/bing.png",
+      },
+  
+      {
+        title: "Proxy",
+        description: "在线代理网站，仅学习使用",
+        url: "http://proxy.ilovescratch.dpdns.org",
+        icon: "",
+      },
+    ],
+  },
     title: "开发使用",
     sites: [
       {
@@ -14,7 +38,14 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "Bing Wallpaper API",
         description: "必应壁纸API",
         url: "http://bingapi.ilovescratch.dpdns.org/",
-        icon: "",
+        icon: "https://ilovescratch.dpdns.org/bing.png",
+      },
+      {
+        title: "网易云音乐API",
+        description: "ILoveScratch 部署的NeteaseCloudMusicAPI",
+        url: "https://neteasemusic.ilovescratch.dpdns.org/",
+        icon: "https://ilovescratch.dpdns.org/netease.png",
+        color: "#0171CD",
       },
       {
         title: "Proxy",
@@ -31,19 +62,16 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "网易云音乐API",
         description: "ILoveScratch 部署的NeteaseCloudMusicAPI",
         url: "https://neteasemusic.ilovescratch.dpdns.org/",
-        icon: "http://ilovescratch.dpdns.org/docker.jpg",
+        icon: "https://ilovescratch.dpdns.org/netease.png",
         color: "#0171CD",
       },
       {
         title: "Bing Wallpaper API",
         description: "必应壁纸API",
         url: "http://bingapi.ilovescratch.dpdns.org/",
-        icon: "",
+        icon: "https://ilovescratch.dpdns.org/bing.png",
       },
     ],
-  },
-  {
-    title: "示例分类5",
   },
   {
     title: "其他链接",
