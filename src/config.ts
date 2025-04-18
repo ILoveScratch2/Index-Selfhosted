@@ -1,7 +1,7 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "开发",
+    title: "开发使用",
     sites: [
       {
         title: "Docker Hub",
@@ -13,7 +13,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "Bing Wallpaper API",
         description: "必应壁纸API",
-        url: "http://docbingapi.ilovescratch.dpdns.org/",
+        url: "http://bingapi.ilovescratch.dpdns.org/",
         icon: "",
       },
       {
@@ -25,7 +25,22 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     ],
   },
   {
-    title: "示例分类2",
+    title: "API",
+    sites: [
+      {
+        title: "网易云音乐API",
+        description: "ILoveScratch 部署的NeteaseCloudMusicAPI",
+        url: "https://neteasemusic.ilovescratch.dpdns.org/",
+        icon: "http://ilovescratch.dpdns.org/docker.jpg",
+        color: "#0171CD",
+      },
+      {
+        title: "Bing Wallpaper API",
+        description: "必应壁纸API",
+        url: "http://bingapi.ilovescratch.dpdns.org/",
+        icon: "",
+      },
+    ],
   },
   {
     title: "示例分类5",
