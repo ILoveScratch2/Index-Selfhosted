@@ -10,6 +10,12 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         color: "#0171CD",
       },
       {
+        title: "TV",
+        description: "ILoveScratch 的在线影视",
+        url: "https://tv.ilovescratch.dpdns.org",
+        icon: "",
+      },
+      {
         title: "Bing Wallpaper API",
         description: "必应壁纸API",
         url: "http://bingapi.ilovescratch.dpdns.org/",
@@ -19,6 +25,30 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "Proxy",
         description: "在线代理网站，仅学习使用",
         url: "http://proxy.ilovescratch.dpdns.org",
+        icon: "",
+      },
+      {
+        title: "SPlayer",
+        description: "ILoveScratch部署的SPlayer (音乐软件)",
+        url: "http://splayer.ilovescratch.dpdns.org",
+        icon: "",
+      },
+      {
+        title: "Start Page",
+        description: "ILoveScratch的自制浏览器主页SPlayer (修改自MacWebStart)",
+        url: "http://start.ilovescratch.dpdns.org",
+        icon: "",
+      },
+      {
+        title: "Notepad",
+        description: "ILoveScratch部署的Serverless Cloud Notepad",
+        url: "http://notepad.ilovescratch.dpdns.org",
+        icon: "",
+      },
+      {
+        title: "StartPage镜像",
+        description: "ILoveScratch的startpahe.com镜像",
+        url: "http://startpage-mirror.ilovescratch.dpdns.org/",
         icon: "",
       },
       {
@@ -50,6 +80,12 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         title: "Proxy",
         description: "在线代理网站，仅学习使用",
         url: "http://proxy.ilovescratch.dpdns.org",
+        icon: "",
+      },
+      {
+        title: "StartPage镜像",
+        description: "ILoveScratch的startpahe.com镜像",
+        url: "http://startpage-mirror.ilovescratch.dpdns.org/",
         icon: "",
       },
     ],
